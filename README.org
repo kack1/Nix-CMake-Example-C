@@ -6,7 +6,7 @@ This is an example of how you can use nix and cmake together in C projects!
 
 ** Building
 Choose wisely ;)
-***Via CMake
+*** Via CMake
 To configure and build your program.
 #+begin_src bash
 mkdir build
