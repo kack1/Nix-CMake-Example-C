@@ -18,7 +18,7 @@ Our executable is built in the same directory.  To execute:
 #+begin_src bash
 ./test
 #+end_src
-***Via Nix
+*** Via Nix
 To build with nix
 #+begin_src bash
 nix build
