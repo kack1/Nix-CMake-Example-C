@@ -1,0 +1,30 @@
+#+author: Kyle Ackerman
+#+description: An example C program with nix and cmake
+
+* Test C Program
+This is an example of how you can use nix and cmake together in C projects!
+
+** Building
+Choose wisely ;)
+***Via CMake
+To configure and build your program.
+#+begin_src bash
+mkdir build
+cd build
+cmake ..
+make
+#+end_src
+Our executable is built in the same directory.  To execute:
+#+begin_src bash
+./test
+#+end_src
+***Via Nix
+To build with nix
+#+begin_src bash
+nix build
+#+end_src
+The result should be produced in a results folder. Alternatively, you could use:
+#+begin_src
+nix run
+#+end_src
+to build and run.
