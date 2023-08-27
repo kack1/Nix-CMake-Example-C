@@ -4,7 +4,7 @@ int
 main (void) {
 
     for (int i = 0; i < 10; ++i) {
-        printf("HELLO on iteration: %d\n", i);
+        printf("HELLO on iteration: %d!\n", i);
     }
 
 }
